@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto Condensed";
+  font-family: "Poppins";
 }
 
 *,
@@ -26,6 +26,9 @@ button {
 }
 
 header .home__main {
+  background: #F4F6FC;
+  padding-top: 96px;
+  padding-bottom: 96px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,6 +43,8 @@ header .home__main p {
   opacity: 0.7;
 }
 header .home__main h1 {
+  margin-top: 4px;
+  margin-bottom: 24px;
   font-weight: 600;
   font-size: 48px;
   line-height: 64px;
@@ -47,6 +52,7 @@ header .home__main h1 {
   color: #282938;
 }
 header .home__main span {
+  max-width: 733px;
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
@@ -55,6 +61,7 @@ header .home__main span {
   opacity: 0.7;
 }
 header .home__main .follow__us {
+  margin-top: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
