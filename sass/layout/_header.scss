@@ -59,7 +59,6 @@ header {
       gap: 40px;
       margin-right: 40px;
       .nav-item {
-        
         a{
           font-family: 'Poppins';
           font-style: normal;
@@ -120,6 +119,7 @@ header {
   
     .nav-right {
         position: fixed;
+        align-items: center;
         top: 0; 
         right: -100%;
         bottom: 0;
