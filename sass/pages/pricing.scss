@@ -228,3 +228,47 @@ color: #2405F2;
       
     }
 }
+
+@media (max-width:1200px) {
+.prices {
+display: inline-block;
+}
+
+    .pricing-row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+    }
+
+    .question {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        .question_left {
+
+            h3 {
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                text-align: center;
+            }
+
+            a {
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                text-align: center;
+            }
+        }
+
+        .question_right {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
