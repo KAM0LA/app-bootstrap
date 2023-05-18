@@ -1,0 +1,230 @@
+@use "../global"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+#price {
+    // margin-top:92px;
+    .prices {
+
+        h2 {
+            
+            position: absolute;
+            width: 414px;
+            height: 64px;
+            top: 220px;
+            margin-left: 420px;
+
+            text-align: center;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 64px;
+            color: #282938;
+}
+
+.text {
+    position: absolute;
+    width: 562px;
+    height: 56px;
+    top: 300px;
+    margin-left: 360px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #282938;
+    opacity: 0.7;
+    margin-bottom: 64px;
+
+}
+
+        .pricing-row {
+            margin-top: 420px;
+            margin-bottom: 128px;
+            display: flex; 
+            gap: 32px;
+
+            .card {
+                width: 406px;
+                height: 765px;
+                &:hover {
+                background-color: #1C1E53;
+                h4, p, h5, h6 {
+                    color: white;
+                }
+                }
+                span {
+                    display: flex;
+                   
+                       h4 {
+                        margin-top:64px ;
+                        margin-left: 48px;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 38px;
+                        line-height: 56px;
+                        color: #282938;
+               
+                    }
+
+                    .design {
+                        width: 124px;
+                        height: 56px;
+                    }
+
+                    p {
+                        width: 281px;
+                        height: 84px;
+                        margin-left: 5px;
+                        margin-bottom: 50px;
+                        padding: 78px 0px;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 28px;
+                        color: #2405F2;
+                      }
+
+                      .web_text {
+                        height: 84px;
+                      }
+                }
+
+                h5 {
+                    margin-left: 48px;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 36px;
+                    color: #282938;
+                }
+
+                p {
+                    margin-bottom: 50px;
+                    width: 281px;
+                    height: 56px;
+                    margin-left: 48px;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #282938;
+                    opacity: 0.7;
+                }
+
+                ul li {
+                    margin-left: 15px;
+                    display: flex;
+                    gap: 12px;
+                    line-height: 20px;
+                    h6 {
+                    padding-top: 10px;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #282938;
+
+                    }
+
+                }
+                a {
+                    width: 254px;
+                    height: 64px;
+                    margin-top: 60px;
+                    margin-left: 76px;
+                    margin-bottom: 60px;
+                    padding: 16px 77px;
+                    background: #282938;
+                    border-radius: 41px;
+
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 32px;
+                    color: #F4F6FC;
+                    &:hover {
+                        background: #FCD980;
+                        color: #282938;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+.question {
+    margin-bottom: 562px;
+    display: flex;
+    justify-content: space-between;
+
+    .question_left {
+        margin-right: 53px;
+h3 {
+    width: 406px;
+height: 128px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+}
+
+a {
+    margin-top: 16px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+text-align: center;
+color: #2405F2;
+opacity: 0.87;
+}
+    }
+
+    .question_right {
+        width: 843px;
+        margin-bottom: 128px;
+
+        .accordion {
+            .accordion-item {
+                .accordion-header {
+                   .accordion-button {
+                    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #282938;
+
+h3 {
+    width: 24px;
+height: 36px;
+    margin-top: 8px;
+    margin-right: 58px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #2405F2;
+}                   } 
+                }
+            }
+        }
+      
+    }
+}
